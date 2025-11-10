@@ -1,6 +1,6 @@
-# Boltons
+# ⚡ Boltons
 
-*boltons should be builtins.*
+*boltons should be builtins.* 🔧
 
 <a href="https://boltons.readthedocs.io/en/latest/"><img src="https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat"></a>
 <a href="https://pypi.python.org/pypi/boltons"><img src="https://img.shields.io/pypi/v/boltons.svg"></a>
@@ -9,21 +9,21 @@
 <a href="https://pypi.python.org/pypi/boltons"><img src="https://img.shields.io/pypi/pyversions/boltons.svg"></a>
 <a href="http://calver.org"><img src="https://img.shields.io/badge/calver-YY.MINOR.MICRO-22bfda.svg"></a>
 
-**Boltons** is a set of over 230 BSD-licensed, pure-Python utilities
+**Boltons** is a set of over 230 BSD-licensed, pure-Python utilities 🐍
 in the same spirit as — and yet conspicuously missing from —
 [the standard library][stdlib], including:
 
-  * [Atomic file saving][atomic], bolted on with [fileutils][fileutils]
-  * A highly-optimized [OrderedMultiDict][omd], in [dictutils][dictutils]
-  * *Two* types of [PriorityQueue][pq], in [queueutils][queueutils]
-  * [Chunked][chunked] and [windowed][windowed] iteration, in [iterutils][iterutils]
-  * Recursive data structure [iteration and merging][remap], with [iterutils.remap][iterutils.remap]
-  * Exponential backoff functionality, including jitter, through [iterutils.backoff][iterutils.backoff]
-  * A full-featured [TracebackInfo][tbinfo] type, for representing stack traces,
+  * 💾 [Atomic file saving][atomic], bolted on with [fileutils][fileutils]
+  * 📚 A highly-optimized [OrderedMultiDict][omd], in [dictutils][dictutils]
+  * 🎯 *Two* types of [PriorityQueue][pq], in [queueutils][queueutils]
+  * 🔄 [Chunked][chunked] and [windowed][windowed] iteration, in [iterutils][iterutils]
+  * 🔍 Recursive data structure [iteration and merging][remap], with [iterutils.remap][iterutils.remap]
+  * ⏰ Exponential backoff functionality, including jitter, through [iterutils.backoff][iterutils.backoff]
+  * 🐛 A full-featured [TracebackInfo][tbinfo] type, for representing stack traces,
     in [tbutils][tbutils]
 
-**[Full and extensive docs are available on Read The Docs.][rtd]** See
-what's new [by checking the CHANGELOG][changelog].
+📖 **[Full and extensive docs are available on Read The Docs.][rtd]** See
+what's new [by checking the CHANGELOG][changelog]. 📝
 
 Boltons is tested against Python 2.6, 2.7, 3.4, 3.5, 3.6, 3.7, 3.8 and 3.9, as well as CPython
 _nightly_ and PyPy/PyPy3.
@@ -50,7 +50,7 @@ _nightly_ and PyPy/PyPy3.
 
 [remap]: http://sedimental.org/remap.html
 
-## Installation
+## 📦 Installation
 
 Boltons can be added to a project in a few ways. There's the obvious one:
 
@@ -81,7 +81,7 @@ independent, and can be copied directly into a project. See the
 [boltons_pypi]: https://pypi.python.org/pypi/boltons
 [integration]: https://boltons.readthedocs.org/en/latest/architecture.html#integration
 
-## Third-party packages
+## 🌐 Third-party packages
 
 The majority of boltons strive to be "good enough" for a wide range of
 basic uses, leaving advanced use cases to Python's [myriad specialized
@@ -92,16 +92,16 @@ library worth mentioning, see the next section!
 
 [pypi]: https://pypi.python.org/pypi
 
-## Gaps
+## 🔧 Gaps
 
 Found something missing in the standard library that should be in
 `boltons`? Found something missing in `boltons`? First, take a
 moment to read the very brief [architecture statement][architecture] to make
-sure the functionality would be a good fit.
+sure the functionality would be a good fit. 💡
 
 Then, if you are very motivated, submit [a Pull Request][prs]. Otherwise,
 submit a short feature request on [the Issues page][issues], and we will
-figure something out.
+figure something out. 🤝
 
 [architecture]: https://boltons.readthedocs.org/en/latest/architecture.html
 [issues]: https://github.com/mahmoud/boltons/issues
