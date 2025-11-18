@@ -1,4 +1,4 @@
-# Boltons
+# 🔧 Boltons ⚡
 
 *boltons should be builtins.*
 
