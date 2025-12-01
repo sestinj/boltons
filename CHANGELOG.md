@@ -10,9 +10,9 @@ scheme (`YY.MINOR.MICRO`).
 ------
 *(December 1, 2025)*
 
-* Documentation updates and improved README with badge links
-* Continuous integration and testing improvements
-* Repository maintenance and community updates
+* README improvements with documentation, PyPI, Conda, and MacPorts badge links ([#3][i3])
+
+[i3]: https://github.com/sestinj/boltons/pull/3
 
 23.0.0
 ------
