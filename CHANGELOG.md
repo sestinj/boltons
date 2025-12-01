@@ -6,6 +6,14 @@ for an average of one 33-commit release about every 9 weeks. Versions
 are named according to the [CalVer](https://calver.org) versioning
 scheme (`YY.MINOR.MICRO`).
 
+25.1.0
+------
+*(December 1, 2025)*
+
+* Documentation updates and improved README with badge links
+* Continuous integration and testing improvements
+* Repository maintenance and community updates
+
 23.0.0
 ------
 *(February 19, 2023)*
