@@ -52,7 +52,7 @@ _nightly_ and PyPy/PyPy3.
 
 [remap]: http://sedimental.org/remap.html
 
-## Installation
+## 📦 Installation
 
 Boltons can be added to a project in a few ways. There's the obvious one:
 
@@ -83,7 +83,7 @@ independent, and can be copied directly into a project. See the
 [boltons_pypi]: https://pypi.python.org/pypi/boltons
 [integration]: https://boltons.readthedocs.org/en/latest/architecture.html#integration
 
-## Third-party packages
+## 🎁 Third-party packages
 
 The majority of boltons strive to be "good enough" for a wide range of
 basic uses, leaving advanced use cases to Python's [myriad specialized
@@ -94,7 +94,7 @@ library worth mentioning, see the next section!
 
 [pypi]: https://pypi.python.org/pypi
 
-## Gaps
+## 🔍 Gaps
 
 Found something missing in the standard library that should be in
 `boltons`? Found something missing in `boltons`? First, take a
