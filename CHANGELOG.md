@@ -6,6 +6,13 @@ for an average of one 33-commit release about every 9 weeks. Versions
 are named according to the [CalVer](https://calver.org) versioning
 scheme (`YY.MINOR.MICRO`).
 
+Unreleased
+----------
+
+* Add emojis to README title (⚡🔧) for improved visual appeal ([#8][i8])
+
+[i8]: https://github.com/mahmoud/boltons/pull/8
+
 23.0.0
 ------
 *(February 19, 2023)*
