@@ -1,6 +1,6 @@
 # ⚡ Boltons
 
-*boltons should be builtins.* 🔩
+*boltons debería ser parte de builtins.* 🔩
 
 <!-- testing -->
 
@@ -11,24 +11,24 @@
 <a href="https://pypi.python.org/pypi/boltons"><img src="https://img.shields.io/pypi/pyversions/boltons.svg"></a>
 <a href="http://calver.org"><img src="https://img.shields.io/badge/calver-YY.MINOR.MICRO-22bfda.svg"></a>
 
-**Boltons** is a set of over 230 BSD-licensed, pure-Python utilities 🐍
-in the same spirit as — and yet conspicuously missing from —
-[the standard library][stdlib], including:
+**Boltons** es un conjunto de más de 230 utilidades de Python puro con licencia BSD 🐍
+con el mismo espíritu que — y sin embargo notablemente ausentes de —
+[la biblioteca estándar][stdlib], incluyendo:
 
-  * 💾 [Atomic file saving][atomic], bolted on with [fileutils][fileutils]
-  * 📚 A highly-optimized [OrderedMultiDict][omd], in [dictutils][dictutils]
-  * 🔢 *Two* types of [PriorityQueue][pq], in [queueutils][queueutils]
-  * 🔄 [Chunked][chunked] and [windowed][windowed] iteration, in [iterutils][iterutils]
-  * 🌳 Recursive data structure [iteration and merging][remap], with [iterutils.remap][iterutils.remap]
-  * ⏰ Exponential backoff functionality, including jitter, through [iterutils.backoff][iterutils.backoff]
-  * 🔍 A full-featured [TracebackInfo][tbinfo] type, for representing stack traces,
-    in [tbutils][tbutils]
+  * 💾 [Guardado atómico de archivos][atomic], incorporado con [fileutils][fileutils]
+  * 📚 Un [OrderedMultiDict][omd] altamente optimizado, en [dictutils][dictutils]
+  * 🔢 *Dos* tipos de [PriorityQueue][pq], en [queueutils][queueutils]
+  * 🔄 Iteración [fragmentada][chunked] y [por ventana][windowed], en [iterutils][iterutils]
+  * 🌳 [Iteración y fusión][remap] de estructuras de datos recursivas, con [iterutils.remap][iterutils.remap]
+  * ⏰ Funcionalidad de retroceso exponencial, incluyendo jitter, a través de [iterutils.backoff][iterutils.backoff]
+  * 🔍 Un tipo [TracebackInfo][tbinfo] completo, para representar trazas de pila,
+    en [tbutils][tbutils]
 
-**[Full and extensive docs are available on Read The Docs.][rtd]** 📖 See
-what's new [by checking the CHANGELOG][changelog]. ✨
+**[Documentación completa y extensa disponible en Read The Docs.][rtd]** 📖 Consulta
+las novedades [revisando el CHANGELOG][changelog]. ✨
 
-Boltons is tested against Python 2.6, 2.7, 3.4, 3.5, 3.6, 3.7, 3.8 and 3.9, as well as CPython
-_nightly_ and PyPy/PyPy3.
+Boltons está probado contra Python 2.6, 2.7, 3.4, 3.5, 3.6, 3.7, 3.8 y 3.9, así como CPython
+_nightly_ y PyPy/PyPy3.
 
 [stdlib]: https://docs.python.org/2.7/library/index.html
 [rtd]: https://boltons.readthedocs.org/en/latest/
@@ -52,58 +52,58 @@ _nightly_ and PyPy/PyPy3.
 
 [remap]: http://sedimental.org/remap.html
 
-## 📦 Installation
+## 📦 Instalación
 
-Boltons can be added to a project in a few ways. There's the obvious one:
+Boltons se puede agregar a un proyecto de varias maneras. Está la obvia:
 
 ```bash
 pip install boltons
 ```
-On macOS, it can also be installed via [MacPorts](https://ports.macports.org/port/py-boltons/summary):
+En macOS, también se puede instalar a través de [MacPorts](https://ports.macports.org/port/py-boltons/summary):
 
 ```bash
 sudo port install py-boltons
 ```
 
 
-Then, [thanks to PyPI][boltons_pypi], dozens of boltons are just an import away:
+Luego, [gracias a PyPI][boltons_pypi], docenas de boltons están a solo un import de distancia:
 
 ```python
 from boltons.cacheutils import LRU
 my_cache = LRU()
 ```
 
-However, due to the nature of utilities, application developers might
-want to consider other options, including vendorization of individual
-modules into a project. Boltons is pure-Python and has no
-dependencies. If the whole project is too big, each module is
-independent, and can be copied directly into a project. See the
-[Integration][integration] section of the docs for more details.
+Sin embargo, debido a la naturaleza de las utilidades, los desarrolladores de aplicaciones
+podrían querer considerar otras opciones, incluyendo la vendorización de módulos
+individuales en un proyecto. Boltons es Python puro y no tiene
+dependencias. Si el proyecto completo es demasiado grande, cada módulo es
+independiente y se puede copiar directamente a un proyecto. Consulta la
+sección de [Integración][integration] en la documentación para más detalles.
 
 [boltons_pypi]: https://pypi.python.org/pypi/boltons
 [integration]: https://boltons.readthedocs.org/en/latest/architecture.html#integration
 
-## 🔌 Third-party packages
+## 🔌 Paquetes de terceros
 
-The majority of boltons strive to be "good enough" for a wide range of
-basic uses, leaving advanced use cases to Python's [myriad specialized
-3rd-party libraries][pypi]. In many cases the respective ``boltons`` module
-will describe 3rd-party alternatives worth investigating when use
-cases outgrow `boltons`. If you've found a natural "next-step"
-library worth mentioning, see the next section!
+La mayoría de los boltons se esfuerzan por ser "suficientemente buenos" para una amplia gama de
+usos básicos, dejando los casos de uso avanzados a las [innumerables bibliotecas
+especializadas de terceros][pypi] de Python. En muchos casos, el módulo ``boltons`` respectivo
+describirá alternativas de terceros que vale la pena investigar cuando los casos de
+uso superen a `boltons`. Si has encontrado una biblioteca de "siguiente paso" natural
+que vale la pena mencionar, ¡consulta la siguiente sección!
 
 [pypi]: https://pypi.python.org/pypi
 
-## 🔧 Gaps
+## 🔧 Brechas
 
-Found something missing in the standard library that should be in
-`boltons`? Found something missing in `boltons`? First, take a
-moment to read the very brief [architecture statement][architecture] to make
-sure the functionality would be a good fit.
+¿Encontraste algo que falta en la biblioteca estándar que debería estar en
+`boltons`? ¿Encontraste algo que falta en `boltons`? Primero, tómate un
+momento para leer la muy breve [declaración de arquitectura][architecture] para asegurarte
+de que la funcionalidad sería una buena opción.
 
-Then, if you are very motivated, submit [a Pull Request][prs]. Otherwise,
-submit a short feature request on [the Issues page][issues], and we will
-figure something out.
+Luego, si estás muy motivado, envía [un Pull Request][prs]. De lo contrario,
+envía una breve solicitud de característica en [la página de Issues][issues], y
+nosotros resolveremos algo.
 
 [architecture]: https://boltons.readthedocs.org/en/latest/architecture.html
 [issues]: https://github.com/mahmoud/boltons/issues
