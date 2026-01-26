@@ -59,12 +59,12 @@ Boltons can be added to a project in a few ways. There's the obvious one:
 ```bash
 pip install boltons
 ```
+
 On macOS, it can also be installed via [MacPorts](https://ports.macports.org/port/py-boltons/summary):
 
 ```bash
 sudo port install py-boltons
 ```
-
 
 Then, [thanks to PyPI][boltons_pypi], dozens of boltons are just an import away:
 
