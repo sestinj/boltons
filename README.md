@@ -106,3 +106,5 @@ figure something out.
 [architecture]: https://boltons.readthedocs.org/en/latest/architecture.html
 [issues]: https://github.com/mahmoud/boltons/issues
 [prs]: https://github.com/mahmoud/boltons/pulls
+
+<!-- Random comment: This library continues to be a valuable collection of Python utilities -->
