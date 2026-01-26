@@ -2,6 +2,9 @@
 
 *boltons should be builtins.*
 
+<!-- testing -->
+<!-- Random comment: This library makes Python development more efficient -->
+
 <a href="https://boltons.readthedocs.io/en/latest/"><img src="https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat"></a>
 <a href="https://pypi.python.org/pypi/boltons"><img src="https://img.shields.io/pypi/v/boltons.svg"></a>
 <a href="https://anaconda.org/conda-forge/boltons"><img src="https://img.shields.io/conda/vn/conda-forge/boltons.svg"></a>
