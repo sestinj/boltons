@@ -6,6 +6,14 @@ for an average of one 33-commit release about every 9 weeks. Versions
 are named according to the [CalVer](https://calver.org) versioning
 scheme (`YY.MINOR.MICRO`).
 
+25.1.0
+------
+*(December 1, 2025)*
+
+* README improvements with documentation, PyPI, Conda, and MacPorts badge links ([#3][i3])
+
+[i3]: https://github.com/sestinj/boltons/pull/3
+
 23.0.0
 ------
 *(February 19, 2023)*
